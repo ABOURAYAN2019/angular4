@@ -1,0 +1,16 @@
+<div>
+<ul>
+<li *ngFor=" let a of liste"   (click) = "view(a)">  {{a.name}}  </li>
+</ul>
+
+<div *ngIf = "b"  style ="background-color: brown;" > 
+ <p>  Nom : {{b.name}} </p>
+ <p>  Nom d'utilisateur : {{b.username}} </p>
+ <p>  Phone : {{b.phone}} </p>
+ <p>  website: {{b.website}} </p>
+ 
+
+
+ 
+</div>
+</div>
